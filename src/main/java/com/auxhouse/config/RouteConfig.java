@@ -53,12 +53,12 @@ public class RouteConfig {
 
 
         //Delete brands
-        post("/deletebrands", (req, res) -> {
+        /*post("/deletebrands", (req, res) -> {
             List<Brand> brands;
 
             return service.deleteBrands(brands);
         }, new JsonTransformer());
-
+        */
     }
 
 }

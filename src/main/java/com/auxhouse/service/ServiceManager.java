@@ -23,6 +23,5 @@ public class ServiceManager {
         return brandsdao.GetAllBrands();
     }
 
-    @Bean
     public int deleteBrands(List<Brand> brandsList) { return brandsdao.DeleteBrand(brandsList); }
 }
