@@ -136,7 +136,7 @@
                 <version>2.6</version>
                 <configuration>
                     <descriptorRefs>
-                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                        <descriptorRef></descriptorRef>
                     </descriptorRefs>
                     <archive>
                         <manifest>
