@@ -21,6 +21,5 @@ public class StartingPoint {
         AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(StartingPoint.class);
         new RouteConfig(ctx.getBean(ServiceManager.class));
         new DBConfig();
-        ctx.registerShutdownHook();
     }
 }
