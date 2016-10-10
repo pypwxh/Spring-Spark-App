@@ -1,6 +1,6 @@
 #!/bin/sh
 SERVICE_NAME=JettyServer
-PATH_TO_JAR=/var/lib/jenkins/workspace/BuildCheckSparkApp/target/SyncApp-2.0-SNAPSHOT-jar-with-dependencies.jar
+PATH_TO_JAR=/var/lib/jenkins/workspace/BuildCheckSparkApp/target/SyncApp-2.0-SNAPSHOT.jar
 PID_PATH_NAME=/tmp/JettyServer-pid
 
 case $1 in
