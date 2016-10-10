@@ -1,7 +1,7 @@
 #!/bin/sh
-SERVICE_NAME=SpringServer
-PATH_TO_JAR=$WORKSPACE/target/SyncApp-2.0-SNAPSHOT.jar
-PID_PATH_NAME=/tmp/SpringServer-pid
+SERVICE_NAME=JettyServer
+PATH_TO_JAR=/var/lib/jenkins/workspace/BuildCheckSparkApp/target/SyncApp-2.0-SNAPSHOT.jar
+PID_PATH_NAME=/tmp/JettyServer-pid
 
 case $1 in
     start)
