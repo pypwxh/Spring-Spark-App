@@ -1,7 +1,7 @@
 #!/bin/sh
-SERVICE_NAME=SpringServer8084
+SERVICE_NAME=SpringServer
 PATH_TO_JAR=$WORKSPACE/target/SyncApp-2.0-SNAPSHOT.jar
-PID_PATH_NAME=/tmp/SpringServer8084-pid
+PID_PATH_NAME=/tmp/SpringServer-pid
 
 case $1 in
     start)
